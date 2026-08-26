@@ -1,4 +1,7 @@
 //prompt for planner
+
+
+
 Explore https://www.saucedemo.com.
 
 Cover the login flow with these scenarios:
@@ -13,6 +16,9 @@ All passwords are: secret_sauce
 Save the plan to specs/saucedemo-login.md
 
 //prompt for generator
+
+
+
 Use scenario 1.1 from specs/saucedemo-login.md.
 
 Context:
@@ -35,6 +41,8 @@ Task:
 4. Report the result
 
 //prompt for healer
+
+
 The test at #tests/auth/standard-login.spec.ts is failing.
 
 Diagnose and fix following your rules:
@@ -49,3 +57,17 @@ Diagnose and fix following your rules:
 8. Do NOT skip the test
 9. Re-run twice to confirm stability
 10. Produce a final report explaining what you did and why
+
+
+
+//Prompt for git-pusher agent
+
+
+Commit and push my changes
+
+
+
+//prompt for MasterPipeline agent
+
+
+Automate tests for https://www.saucedemo.com login flow with standard_user, locked_out_user, empty username, empty password, and invalid credentials. Password is secret_sauce. Save plan to specs/saucedemo-login.md and tests to tests/auth/.
